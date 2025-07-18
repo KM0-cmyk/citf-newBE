@@ -17,7 +17,7 @@ app.use('/uploads', express.static('uploads'));
 
 // MySQL Connection
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: '162.214.98.236',
   user: 'citforgl_citf_user',
   password: 'citfUser@1230#', // Update your password here
   database: 'citforgl_citf_admin_panel',

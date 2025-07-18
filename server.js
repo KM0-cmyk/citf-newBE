@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use('/uploads', express.static('uploads'));
 
-
+require('dotenv').config();
 // MySQL Connection
 const db = mysql.createConnection({
   host: '162.214.98.236',

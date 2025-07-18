@@ -1,6 +1,6 @@
 const express = require('express');
 const multer = require('multer');
-// const mysql = require('mysql2');
+const mysql = require('mysql2');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
